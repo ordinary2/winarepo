@@ -1,6 +1,5 @@
 # Irakli Zaridze
-
-________________________________________________
+___
 
 ## Contact information:
 
@@ -8,7 +7,7 @@ ________________________________________________
 * Telegram: @irakliRed
 * E-Mail: izaridze699@gmail.com
 
-________________________________________________
+___
 
 ## About myself: 
 
@@ -22,6 +21,8 @@ ___
 
 * HTML5, CSS3
 * VS Code, Unity
+
+___
 
 ## Languages:
 * Georgian- Native
