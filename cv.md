@@ -22,3 +22,8 @@ ___
 
 * HTML5, CSS3
 * VS Code, Unity
+
+## Languages:
+* Georgian- Native
+* English - Intermediate
+* Russiაn - Basic
