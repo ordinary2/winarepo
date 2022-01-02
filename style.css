@@ -6,6 +6,10 @@ body {
     font-size: 19px;
 }
 
+p {
+    font-size: 19px;
+}
+
 .top {
     border-bottom: 5px solid rgb(141, 131, 100);
     display: flex;
@@ -64,4 +68,3 @@ section {
 .course-item span {
     color: rgb(141, 131, 100);
 }
-
