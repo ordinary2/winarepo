@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: rgb(59, 55, 44);
 }
 
 .top {
@@ -23,6 +24,20 @@ img {
 }
 
 .my-name {
-    color: rgb(59, 55, 44);
     word-spacing: 3px;
+}
+
+.contact-item {
+    font-size: 19px;
+}
+
+.contact-item a {
+    color: rgb(59, 55, 44);
+    text-decoration: none;
+    transition: ease .5s;
+}
+
+.contact-item a:hover {
+    color: rgb(141, 129, 97);
+    text-decoration: underline;
 }
