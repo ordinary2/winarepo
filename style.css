@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(59, 55, 44);
+    font-size: 19px;
+}
+
+p {
+    font-size: 19px;
+}
+
+.top {
+    border-bottom: 5px solid rgb(141, 131, 100);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.my-name {
+    word-spacing: 3px;
+}
+
+.contact-item {
+    font-size: 19px;
+}
+
+.contact-item a {
+    color: rgb(59, 55, 44);
+    text-decoration: none;
+    transition: ease .5s;
+}
+
+.contact-item a:hover {
+    color: rgb(141, 129, 97);
+    text-decoration: underline;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sections section {
+    width: 48%;
+}
+section {
+    border-bottom: 2px solid rgb(141, 131, 100);
+}
+
+.skill-item span {
+    color: rgb(141, 131, 100);
+}
+
+.course-item span {
+    color: rgb(141, 131, 100);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.creation-time {
+    color: rgb(141, 129, 97);
+    font-size: 30px;
+}
+
+.github-link {
+    color: rgb(141, 129, 97);
+    text-decoration: none;
+    font-size: 25px;
+    transition: ease .5s;
+}
+
+.github-link:hover {
+    color: rgb(94, 86, 65);
+}
