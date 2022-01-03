@@ -27,4 +27,4 @@ ___
 ## Languages:
 * Georgian- Native
 * English - Intermediate
-* Russiაn - Basic
+* Russian - Basic

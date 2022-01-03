@@ -102,8 +102,42 @@
                         </li>
                     </ul>
                 </section>
+                <section class="code-example">
+                    <h2 class="code-example-title">
+                        Code
+                    </h2>
+                        <pre>
+                            <code class="code">
+function finalGrade (exam, projects) {
+if (exam > 90 || projects > 20){
+ console.log("100");
+} else if ( exam > 75 && projects >= 5) {
+console.log("90");
+} else if ( exam > 50 && projects >= 2) {
+console.log("75");
+} else {
+console.log("0");
+}
+}
+finalGrade(78 , 3);
+                        </code>
+                    </pre>
+                </section>
             </div>
         </div>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="creation-time">
+                    2022
+                </p>
+                <a href="https://github.com/ordinary2" class="github-link">ordinary2</a>
+                <a href="https://rs.school/js/" class="rsschool-link">
+                    <img src="rs_school_js.svg" alt="RSschool logo" class="rsschool-logo">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
