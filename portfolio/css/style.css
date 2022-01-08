@@ -1,0 +1,395 @@
+body {
+    background: #000;
+    font-size: 20px;
+    font-family: "Inter";
+    color: #fff;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: "Merriweather";
+    font-weight: 700;
+    color: #BDAE82;
+}
+
+a {
+    padding: 0;
+    color: #fff;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section-title::before {
+    display: inline-flex;
+    content: " ";
+    width: 294px;
+    height: 2px;
+    background: #BDAE82;
+    margin: 0 20px;
+}
+
+.section-title::after {
+    display: inline-flex;
+    content: " ";
+    width: 294px;
+    height: 2px;
+    background: #BDAE82;
+    margin: 0 20px;
+}
+
+/* -------HEADER------------------------------------------- */
+
+.header-container {
+    display: flex;
+    min-height: 90px;
+    align-items: center;
+}
+
+.logo path {
+    transition: fill 0.3s ease;
+}
+
+.logo:hover path {
+    fill: #BDAE82;
+}
+
+.header_logo {
+    margin-left: 20px;
+}
+
+.header-menu {
+    margin-left: 810px;
+}
+
+.menu-list {
+    display: flex;
+    padding-left: 0;
+}
+
+.menu-item {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.menu-item:last-child {
+    padding-right: 31px;
+}
+
+.menu-link {
+    transition: ease 0.3s;
+}
+
+.language {
+    transition: ease 0.3s;
+}
+
+.menu-link:hover, .language:hover {
+    color: #BDAE82;
+}
+
+.menu-link, .language {
+    text-decoration: none;
+}
+
+.active-lang {
+    color: #BDAE82;
+}
+
+/*---- HERO ------------------------------ */
+
+.hero-block-body {
+    padding: 134px 0 330px 80px;
+}
+
+.main-block {
+    background-image: url("../image/bg.png");
+    background-repeat: no-repeat;
+    
+}
+
+.hero-block-body {
+    width: 490px;
+}
+
+.hero-name {
+    font-size: 60px;
+    font-family: "Merriweather";
+    margin-bottom: 47px;
+}
+
+.hero-block-text {
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.page-button {
+    display: inline-flex;
+    width: 220px;
+    height: 55px;
+    background: #BDAE82;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+
+.page-button:hover {
+    color: #fff;
+}
+
+/* ---- SKILLS ------------------------------------------ */
+
+.skills-title {
+    margin-bottom: 86px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    text-align: center;
+}
+
+.skills-card:not(:last-child) {
+    margin-right: 80px;
+}
+
+
+.skill-icon {
+    margin-bottom: 50px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+/* ---PORTFOLIO----------------------- */
+
+.portfolio-seasons {
+    display: flex;
+    justify-content: center;
+}
+
+.season-button {
+    background: #000;
+    border: 2px solid #BDAE82;
+    color: #BDAE82;
+    margin-bottom: 86px;
+}
+
+.season-button:not(:last-child) {
+    margin-right: 5px;
+}
+
+.season-button:hover {
+    color: #fff;
+}
+
+.season-active {
+    background: #BDAE82;
+    color: #000;
+}
+
+.seasons-photo-item:first-child {
+    margin: 0 25px 25px 0;
+}
+
+.seasons-photo-item:nth-child(2) {
+    margin: 0 25px 25px 0;
+}
+
+.seasons-photo-item:nth-child(3) {
+    margin: 0 0 25px 0;
+}
+
+.seasons-photo-item:nth-child(4) {
+    margin: 0 25px 0 0;
+}
+
+.seasons-photo-item:nth-child(5) {
+    margin: 0 25px 0 0;
+}
+
+/* ---VIDEO-------------------------------------------- */
+
+.video-player {
+    display: flex;
+    background-image: url("../image/video/video-player.png");
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 705px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video-player path {
+    transition: fill 0.3s ease;
+}
+
+.video-play:hover path {
+    fill: #BDAE82;
+}
+
+/* ---PRICE-----------------------------------------*/
+
+.price {
+    margin-bottom: 100px;
+}
+
+.price-cards {
+    display: flex;
+}
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    width: 444px;
+    border: 3px solid #BDAE82;
+    padding: 43px 0;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.price-card:not(:last-child) {
+    margin-right: 25px;
+}
+
+.card-title {
+    font-family: "Merriweather";
+    margin-bottom: 34px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.card-price {
+    font-family: "Merriweather";
+    color: #BDAE82;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    margin-bottom: 40px;
+    width: 206px;
+}
+
+/* ---CONTACTS---------------------------------*/
+
+.contacts-block {
+    background-image: url("../image/contacts/contacts.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 20px;
+}
+
+.contact-form-item{
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #BDAE82;
+    padding: 17px 0 17px 20px;
+    width: 450px;
+    margin-bottom: 20px;
+    color:#BDAE82;
+}
+
+.contact-form-item::placeholder {
+    color: #BDAE82;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-title {
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.contact-text {
+    margin-bottom: 30px;
+}
+
+.contact-button {
+    margin-bottom: 190px;
+    cursor: pointer;
+}
+
+/* ----FOOTER------------------------------------*/
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    align-items: center;
+}
+
+.github {
+    display: flex;
+}
+
+.copy-right {
+    margin-right: 20px;
+}
+
+.creation-time {
+    margin-right: 20px;
+}
+
+.github-link {
+    text-decoration: none;
+}
+
+.rs-school-link {
+    text-decoration: none;
+}
+
+.social-link {
+    text-decoration: none;
+}
+
+.social-link svg path {
+    transition: fill 0.3s ease;
+}
+
+.social-link:not(:last-child) {
+    margin-right: 24px;
+}
+
+.social-link:hover svg path {
+    fill: #BDAE82;
+}
